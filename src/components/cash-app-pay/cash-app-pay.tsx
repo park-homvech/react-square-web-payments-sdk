@@ -47,6 +47,15 @@ function CashAppPay({
   }, [shape, size, values, width]);
 
   React.useEffect(() => {
+    if (!cashApp) {
+      return;
+    }
+    return () => {
+      cashApp.destroy();
+    };
+  },[cashApp]);
+  
+  React.useEffect(() => {
     if (!createPaymentRequest) {
       throw new Error('`createPaymentRequest()` is required when using digital wallets');
     }
