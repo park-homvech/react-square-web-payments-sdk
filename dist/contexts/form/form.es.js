@@ -1,5 +1,5 @@
 import * as r from "react";
-import { payments as k } from "../../node_modules/@square/web-sdk/dist/index.es.js";
+import { payments as k } from '../../../../node_modules/@square/web-sdk/dist/index.es.js'
 import w from "../../components/error-screen/error-screen.es.js";
 import { useDynamicCallback as b } from "../../hooks/use-dynamic-callback.es.js";
 const i = r.createContext({
