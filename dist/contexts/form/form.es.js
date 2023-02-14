@@ -42,9 +42,7 @@ function T({ applicationId: e, locationId: o, children: u, overrides: l, ...n })
     createPaymentRequest: f,
     payments: a
   };
-  return /* @__PURE__ */ r.createElement(i.Provider, {
-    value: d
-  }, u);
+  return /* @__PURE__ */ r.createElement(i.Provider, { value: d }, u);
 }
 const x = () => {
   const e = r.useContext(i);

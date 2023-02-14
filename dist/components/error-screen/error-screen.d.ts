@@ -1,5 +1,5 @@
 import * as React from 'react';
-declare type ErrorScreenProps = {
+type ErrorScreenProps = {
     isDevelopment?: boolean;
 };
 declare const ErrorScreen: React.ForwardRefExoticComponent<ErrorScreenProps & React.RefAttributes<HTMLDivElement>>;

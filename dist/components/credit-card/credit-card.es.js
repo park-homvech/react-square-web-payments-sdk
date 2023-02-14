@@ -71,24 +71,21 @@ function x({
   });
   const g = ({ children: e, isLoading: t, ...n }) => {
     const i = "rswp-card-button", o = t || !a || k;
-    return /* @__PURE__ */ r.createElement(j, {
-      ...n,
-      "aria-disabled": o,
-      css: n?.css,
-      disabled: o,
-      id: i,
-      ref: y,
-      type: "button"
-    }, e ?? "Pay");
+    return /* @__PURE__ */ r.createElement(
+      j,
+      {
+        ...n,
+        "aria-disabled": o,
+        css: n?.css,
+        disabled: o,
+        id: i,
+        ref: y,
+        type: "button"
+      },
+      e ?? "Pay"
+    );
   };
-  return /* @__PURE__ */ r.createElement(r.Fragment, null, /* @__PURE__ */ r.createElement("div", {
-    ...v,
-    "data-testid": "rswps-card-container",
-    id: d,
-    style: { minHeight: 89 }
-  }, !a && /* @__PURE__ */ r.createElement($, null)), typeof w == "function" ? w(g) : /* @__PURE__ */ r.createElement(g, {
-    ...u
-  }, h ?? "Pay"));
+  return /* @__PURE__ */ r.createElement(r.Fragment, null, /* @__PURE__ */ r.createElement("div", { ...v, "data-testid": "rswps-card-container", id: d, style: { minHeight: 89 } }, !a && /* @__PURE__ */ r.createElement($, null)), typeof w == "function" ? w(g) : /* @__PURE__ */ r.createElement(g, { ...u }, h ?? "Pay"));
 }
 export {
   x as default

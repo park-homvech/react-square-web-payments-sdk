@@ -17,9 +17,7 @@ function q({ children: t, onShippingAddressChange: o, onShippingOptionChange: s 
     })(d), () => {
       i.abort();
     };
-  }, [a, n]), /* @__PURE__ */ e.createElement(c.Provider, {
-    value: l
-  }, t);
+  }, [a, n]), /* @__PURE__ */ e.createElement(c.Provider, { value: l }, t);
 }
 function v() {
   const t = e.useContext(c);

@@ -24,7 +24,7 @@ export declare enum PlaidLinkStableEvent {
     SELECT_INSTITUTION = "SELECT_INSTITUTION",
     ERROR = "ERROR"
 }
-export declare type AchPayButtonProps = Omit<React.ComponentPropsWithoutRef<'button'>, 'aria-disabled' | 'disabled' | 'type'> & {
+export type AchPayButtonProps = Omit<React.ComponentPropsWithoutRef<'button'>, 'aria-disabled' | 'disabled' | 'type'> & {
     /**
      * Sets the style for the Payment Button using a CSS object
      *
@@ -43,7 +43,7 @@ export declare type AchPayButtonProps = Omit<React.ComponentPropsWithoutRef<'but
     /** Control the loading state of the button a.k.a disabling the button. */
     isLoading?: boolean;
 };
-export declare type SvgProps = React.ComponentPropsWithRef<'svg'> & {
+export type SvgProps = React.ComponentPropsWithRef<'svg'> & {
     /**
      * Sets the style for the SVG using a CSS object
      *

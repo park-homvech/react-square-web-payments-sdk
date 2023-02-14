@@ -48,17 +48,20 @@ function v({ id: y = "rswps-apple-pay", ...f }) {
     options: {
       passive: !0
     }
-  }), /* @__PURE__ */ o.createElement(b, {
-    ...f,
-    css: {
-      display: t ? "block" : "none",
-      opacity: t ? 1 : 0.5,
-      pointerEvents: t ? "auto" : "none",
-      visibility: t ? "visible" : "hidden"
-    },
-    id: y,
-    ref: l
-  });
+  }), /* @__PURE__ */ o.createElement(
+    b,
+    {
+      ...f,
+      css: {
+        display: t ? "block" : "none",
+        opacity: t ? 1 : 0.5,
+        pointerEvents: t ? "auto" : "none",
+        visibility: t ? "visible" : "hidden"
+      },
+      id: y,
+      ref: l
+    }
+  );
 }
 export {
   v as default

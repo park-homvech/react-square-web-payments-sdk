@@ -46,15 +46,7 @@ function A({
     options: {
       passive: !0
     }
-  }), t ? /* @__PURE__ */ e.createElement(t, {
-    ...f,
-    id: r,
-    ref: i
-  }) : /* @__PURE__ */ e.createElement("div", {
-    ...f,
-    id: r,
-    ref: i
-  }, a ? null : /* @__PURE__ */ e.createElement(k, null));
+  }), t ? /* @__PURE__ */ e.createElement(t, { ...f, id: r, ref: i }) : /* @__PURE__ */ e.createElement("div", { ...f, id: r, ref: i }, a ? null : /* @__PURE__ */ e.createElement(k, null));
 }
 function C({
   badgeTheme: t = "black-on-mint",
@@ -90,14 +82,7 @@ function C({
     }
   });
   const p = n?.Message;
-  return p ? /* @__PURE__ */ e.createElement(p, {
-    ...i,
-    id: o,
-    ref: a
-  }) : /* @__PURE__ */ e.createElement("div", {
-    ...i,
-    id: o
-  });
+  return p ? /* @__PURE__ */ e.createElement(p, { ...i, id: o, ref: a }) : /* @__PURE__ */ e.createElement("div", { ...i, id: o });
 }
 function P({ includeBranding: t, id: n = "rswps-afterpay-widget", ...o }) {
   const c = e.useRef(null), r = m();
@@ -107,16 +92,10 @@ function P({ includeBranding: t, id: n = "rswps-afterpay-widget", ...o }) {
         includeBranding: t
       });
     })();
-  }, [r, t]), /* @__PURE__ */ e.createElement("div", {
-    ...o,
-    id: n,
-    ref: c
-  });
+  }, [r, t]), /* @__PURE__ */ e.createElement("div", { ...o, id: n, ref: c });
 }
 function $(t) {
-  return /* @__PURE__ */ e.createElement(E, null, /* @__PURE__ */ e.createElement(A, {
-    ...t
-  }));
+  return /* @__PURE__ */ e.createElement(E, null, /* @__PURE__ */ e.createElement(A, { ...t }));
 }
 export {
   A as AfterpayButton,

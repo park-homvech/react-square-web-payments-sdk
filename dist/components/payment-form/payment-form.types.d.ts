@@ -1,6 +1,6 @@
 import type * as React from 'react';
 import type * as Square from '@square/web-sdk';
-export declare type PaymentFormProps = {
+export type PaymentFormProps = {
     /**
      * Identifies the calling form with a verified application ID generated from
      * the Square Application Dashboard.

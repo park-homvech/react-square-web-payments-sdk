@@ -57,10 +57,7 @@ function P({
         t.toLowerCase(),
         n[t]
       );
-  return /* @__PURE__ */ e.createElement("div", {
-    ...R,
-    id: c
-  });
+  return /* @__PURE__ */ e.createElement("div", { ...R, id: c });
 }
 export {
   P as default

@@ -2,7 +2,7 @@
 import type * as Square from '@square/web-sdk';
 import type * as Stitches from '@stitches/react';
 import { PayButton } from './gift-card.styles';
-export declare type GiftCardPayButtonProps = Omit<React.ComponentPropsWithoutRef<'button'>, 'aria-disabled' | 'disabled' | 'type'> & {
+export type GiftCardPayButtonProps = Omit<React.ComponentPropsWithoutRef<'button'>, 'aria-disabled' | 'disabled' | 'type'> & {
     /**
      * Sets the style for the Payment Button using a CSS object
      *

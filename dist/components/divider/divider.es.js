@@ -1,11 +1,7 @@
 import * as e from "react";
-import { Line as o, SpanText as m } from "./divider.styles.es.js";
-const n = ({ children: t, spanProps: r, ...a }) => /* @__PURE__ */ e.createElement(o, {
-  ...a
-}, /* @__PURE__ */ e.createElement(m, {
-  ...r
-}, t ?? "or"));
+import { Line as a, SpanText as i } from "./divider.styles.es.js";
+const m = ({ children: t, spanProps: r, ...o }) => /* @__PURE__ */ e.createElement(a, { ...o }, /* @__PURE__ */ e.createElement(i, { ...r }, t ?? "or")), c = m;
 export {
-  n as default
+  c as default
 };
 //# sourceMappingURL=divider.es.js.map

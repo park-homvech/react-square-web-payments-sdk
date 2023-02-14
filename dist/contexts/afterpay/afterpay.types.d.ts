@@ -1,6 +1,6 @@
 import type * as Square from '@square/web-sdk';
 import type * as React from 'react';
-export declare type AfterpayProviderProps = {
+export type AfterpayProviderProps = {
     children: React.ReactNode;
     /**
      * Occurs when a buyer chooses a shipping address in Afterpay/Clearpay.

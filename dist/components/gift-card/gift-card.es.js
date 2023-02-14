@@ -66,24 +66,21 @@ function F({
   });
   const g = ({ isLoading: e, ...t }) => {
     const n = "rswp-gift-card-button", o = e || !a || v;
-    return /* @__PURE__ */ r.createElement(S, {
-      ...t,
-      "aria-disabled": o,
-      css: t?.css,
-      disabled: o,
-      id: n,
-      ref: b,
-      type: "button"
-    }, t?.children ?? "Pay with Gift Card");
+    return /* @__PURE__ */ r.createElement(
+      S,
+      {
+        ...t,
+        "aria-disabled": o,
+        css: t?.css,
+        disabled: o,
+        id: n,
+        ref: b,
+        type: "button"
+      },
+      t?.children ?? "Pay with Gift Card"
+    );
   };
-  return /* @__PURE__ */ r.createElement(r.Fragment, null, /* @__PURE__ */ r.createElement("div", {
-    ...h,
-    "data-testid": "rswps-gift-card-container",
-    id: i,
-    style: { minHeight: 89 }
-  }, !a && /* @__PURE__ */ r.createElement(P, null)), typeof d == "function" ? d(g) : /* @__PURE__ */ r.createElement(g, {
-    ...y
-  }, C ?? "Pay with Gift Card"));
+  return /* @__PURE__ */ r.createElement(r.Fragment, null, /* @__PURE__ */ r.createElement("div", { ...h, "data-testid": "rswps-gift-card-container", id: i, style: { minHeight: 89 } }, !a && /* @__PURE__ */ r.createElement(P, null)), typeof d == "function" ? d(g) : /* @__PURE__ */ r.createElement(g, { ...y }, C ?? "Pay with Gift Card"));
 }
 export {
   F as default

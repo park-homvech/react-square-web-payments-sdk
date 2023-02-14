@@ -1,6 +1,6 @@
 /// <reference types="react" />
 import type * as Square from '@square/web-sdk';
-export declare type FormContextType = {
+export type FormContextType = {
     /**
      * **Required for all features**
      *
@@ -27,7 +27,7 @@ export declare type FormContextType = {
      */
     createPaymentRequest?: Square.PaymentRequestOptions;
 };
-export declare type FormProviderProps = {
+export type FormProviderProps = {
     /**
      * Identifies the calling form with a verified application ID generated from
      * the Square Application Dashboard.

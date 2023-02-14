@@ -1,6 +1,6 @@
 /// <reference types="react" />
 import type * as Square from '@square/web-sdk';
-export declare type CashAppPayProps = React.ComponentPropsWithoutRef<'div'> & {
+export type CashAppPayProps = React.ComponentPropsWithoutRef<'div'> & {
     callbacks?: {
         onTokenization?(event: Square.SqEvent<Square.TokenizationEvent>): void;
     };

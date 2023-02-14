@@ -1,6 +1,6 @@
 import * as React from 'react';
 export declare const getRefElement: <T>(element?: T | React.RefObject<Element> | undefined) => Element | T | React.RefObject<Element> | null | undefined;
-declare type UseEventListenerProps = {
+type UseEventListenerProps = {
     type: keyof WindowEventMap;
     listener: EventListener;
     element?: React.RefObject<Element> | HTMLElement | Document | Window | null;
