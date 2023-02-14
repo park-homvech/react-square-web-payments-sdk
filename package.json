@@ -1,16 +1,16 @@
 {
-  "name": "react-square-web-payments-sdk",
+  "name": "@park-homvech/react-square-web-payments-sdk",
   "version": "3.2.1",
-  "homepage": "https://weareseeed.github.io/react-square-web-payments-sdk/",
+  "homepage": "https://github.com/park-homvech/react-square-web-payments-sdk",
   "bugs": {
-    "url": "https://github.com/weareseeed/react-square-web-payments-sdk/issues"
+    "url": "https://github.com/park-homvech/react-square-web-payments-sdk"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:weareseeed/react-square-web-payments-sdk.git"
+    "url": "git@github.com:park-homvech/react-square-web-payments-sdk.git"
   },
   "license": "MIT",
-  "author": "Seeed LLC. <sales@seeed.us> (https://seeed.us)",
+  "author": "Parsakon Homvech",
   "contributors": [
     {
       "name": "Daniel Esteves",
@@ -20,6 +20,10 @@
     {
       "name": "Gabriel De Andrade",
       "email": "gabrieldeandradeleal@gmail.com"
+    },
+    {
+      "name": "Parsakon Homvech",
+      "email": "park@engineears.org",
     }
   ],
   "sideEffects": false,
